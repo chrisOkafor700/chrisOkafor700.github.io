@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <hr>
+    <header>
+        <div class="brand">
+            <div class="brand-logo">
+                <img width="60px" height="60px" src="./img/ct logo.JPG" alt="">
+            </div>
+            <h1>CHRISTECH</h1>
+        </div>
+        <button class="hamburger">
+        <span class="material-icons">menu</span>
+    </button>
+    <nav class="mobile-menu">
+        <div class="brand">
+            <div class="brand-logo">
+                <img width="60px" height="60px" src="./img/ct logo.JPG" alt="">
+            </div>
+            <h2>CHRISTECH</h2>
+        </div>
+        <ul>
+            <li class="mobile-menu-item">
+                <a href="./index.html" class="hover-underline">HOME</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="./about.html" class="hover-underline">ABOUT</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="./services.html" class="hover-underline">SERVICES</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="./projects.html" class="hover-underline">PROJECTS</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="#" class="hover-underline">CONTACT</a>
+            </li>
+        </ul>
+
+    </nav>
+    </header>
+    <hr>
+  <fieldset>
+    <legend> CONTACT ME </legend>
+    <form action="https://formspree.io/f/xdovgvap" method="POST" autocomplete="on" target="blank">
+        <label for="Name" class="label"><i>NAME</i></label><br>
+    <input type="text" name="Name" id="empty" placeholder="enter your name" required><br>
+    <label for="Email" class="label"><i>EMAIL</i></label><br>
+    <input type="Email" name="Email" id="empty2" placeholder="@gmail.com" required><br>
+    <label for="phone" class="label"><i>PHONE NUMBER</i></label><br>
+    <input type="text" name="phone" id="empty3" placeholder="phone no" required> <br>
+    <label for="Message" class="label">Drop a message</label><br>
+    <textarea name="Message"  id="empty4" placeholder="drop a comment"></textarea> <br>
+    <button type="submit" value="Send" class="summit" id="summit" onclick="f1()">summit</button> <button type="reset" value="Reset" class="summit-2">reset</button>
+    
+    </form> 
+  </fieldset>  
+  <address>
+    <h1>you can visit our head office</h1>
+    ADDRESS:@no26 ALL SAINTS ROAD NKPOR AGU <br>
+    PHONE NUMBER:07026734916.
+    
+
+  </address>
+  <script src="./javascript/home.js"></script>
+</body>
+</html>
